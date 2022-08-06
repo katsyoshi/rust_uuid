@@ -1,0 +1,14 @@
+[package]
+name = "rust_uuid"
+version = "0.1.0"
+authors = ["katsyoshi <github@katsyoshi.org>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rb-sys = "0.9"
+rb-allocator = "0.9"
+magnus = { version = "0.3", features = ["rb-sys-interop"] }
+uuid = { version = "1.1.2", features = ["v4"] }

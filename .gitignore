@@ -1,0 +1,15 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/ext/rust_uuid/target
+*.bundle
+*.so
+*.o
+*.a
+mkmf.log
+Gemfile.lock
