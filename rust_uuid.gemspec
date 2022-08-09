@@ -30,6 +30,11 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_development_dependency "benchmark-ips"
+  spec.add_development_dependency "rake", ">= 13.0.0"
+  spec.add_development_dependency "rake-compiler"
+  spec.add_development_dependency "rb_sys"
+  spec.add_development_dependency "rspec"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
