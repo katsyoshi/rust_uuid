@@ -1,0 +1,3 @@
+[workspace]
+members = ["./ext/rust_uuid"]
+resolver = "2"

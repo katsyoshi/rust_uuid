@@ -6,7 +6,7 @@
 /pkg/
 /spec/reports/
 /tmp/
-/ext/rust_uuid/target
+/**/target/
 *.bundle
 *.so
 *.o
