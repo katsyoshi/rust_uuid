@@ -10,10 +10,10 @@ crate-type = ["cdylib"]
 [dependencies]
 rb-sys = "0.9"
 rb-allocator = "0.9"
-magnus = { version = "0.4", features = ["rb-sys-interop"] }
+magnus = "0.6"
 
 [dependencies.uuid]
-version = "1.1.2"
+version = "1.8"
 features = [
   "v4",
   # "fast-rng",
