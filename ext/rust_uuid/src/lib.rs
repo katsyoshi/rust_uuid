@@ -8,9 +8,14 @@ fn v4() -> String {
     Uuid::new_v4().to_string()
 }
 
+fn v7() -> String {
+    Uuid::now_v7().to_string()
+}
+
 #[magnus::init]
 fn init() -> Result<(), Error> {
     let module = define_module("RustUUID")?;
     module.define_singleton_method("v4", function!(v4, 0))?;
+    module.define_singleton_method("v7", function!(v7, 0))?;
     Ok(())
 }

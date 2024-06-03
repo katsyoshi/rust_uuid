@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake-compiler"
   spec.add_development_dependency "rb_sys"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "uuid7"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
