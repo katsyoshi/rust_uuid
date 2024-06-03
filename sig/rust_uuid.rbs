@@ -1,5 +1,8 @@
-module RustUuid
+module RustUUID
   VERSION: String
   def self.v4: () -> String
   def self.v7: () -> String
+
+  class Error
+  end
 end
